@@ -29,6 +29,8 @@ section {
 .experience {
     font-size: calc(10px + (16-12) * ((100vw - 300px) / (1600-300)));
     text-align: justify;
+    display: block;
+    position: relative;
 }
 
 .text {
