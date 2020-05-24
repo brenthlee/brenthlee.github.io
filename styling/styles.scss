@@ -14,8 +14,12 @@
 
 section {
     display: flex;
-    margin: 0 auto;
+    margin: 20 auto 0;
     width: 80%;
+}
+
+#first {
+    margin-top: 0;
 }
 
 .text {
