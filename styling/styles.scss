@@ -56,13 +56,14 @@ section {
     align-items: center;
 }
 
-.nav {
-    margin-left: 10px;
-}
-
-#headerhome {
+a {
     text-decoration: none;
-    // padding-left: 20px;
+    .nav {
+        margin-left: 10px;
+    }
+}
+a:hover {
+    color: gray;
 }
 
 .column {
