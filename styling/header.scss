@@ -3,6 +3,13 @@ header {
     color: grey;
     font-size: 15px;
     width: 100%;
+    
+    #lHeader {
+        text-align: left;
+    }
+    #rHeader {
+        text-align: right;
+    }
 }
 
 button {
