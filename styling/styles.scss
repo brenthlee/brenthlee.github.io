@@ -86,6 +86,7 @@ a {
     font-size: calc(12px + (20-12) * ((100vw - 300px) / (1600-300)));
     display: block;
     text-align: center;
+    margin-top: 30;
     width: 100%;
 }
 
@@ -98,4 +99,6 @@ a {
 .content {
     display: block;
     width: 80%;
+    font-size: calc(10px + (16-12) * ((100vw - 300px) / (1600-300)));
+    text-align: justify;
 }
