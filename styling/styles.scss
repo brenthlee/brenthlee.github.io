@@ -68,7 +68,7 @@ section {
 a {
     text-decoration: none;
 }
-a:hover {
+.nav:hover {
     color: gray;
 }
 
@@ -83,11 +83,11 @@ a:hover {
 }
 
 .logo {
-    width: 30%;
+    width: 20%;
 }
 
 .content {
-    width: 70%;
+    width: 80%;
 }
 
 // p {
