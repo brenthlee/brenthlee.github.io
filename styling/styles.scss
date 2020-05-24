@@ -9,17 +9,22 @@
     width: 100%;
     background-color: #101010;
     display: block;
+    padding: 20 0;
 }
 
 section {
     display: flex;
     width: 90%;
     justify-content: center;
-    text-align: center;
 }
 
 .summary {
-    font-size: 40;
+    font-size: 30;
+    margin: 0 auto;
+}
+
+.text {
+    text-align: center;
 }
 
 .header {
