@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    color: white;
 }
 
 .main {
@@ -7,6 +8,16 @@
     width: 100%;
     background-color: #101010;
     display: block;
+}
+
+section {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+
+.summary {
+    font-size: 70;
 }
 
 .header {
@@ -23,7 +34,6 @@
 .inner {
     display: flex;
     background-color: #00B29D;
-    color: white;
     width: 90%;
     height: 100%;
     margin: 0 auto;
@@ -32,7 +42,6 @@
 }
 
 #headerhome {
-    color: white;
     text-decoration: none;
     padding-left: 20px;
 }
@@ -47,19 +56,21 @@
     padding-right: 20px;
 }
 
-p {
-    color: green;
-    border: 2px solid green;
-    font-size: 24px;
-    text-align: center;
-}
 
-button {
-    color: blue;
-    background-color: pink;
-}
 
-a {
-    text-decoration: none;
-    color: red;
-}
+// p {
+//     color: green;
+//     border: 2px solid green;
+//     font-size: 24px;
+//     text-align: center;
+// }
+
+// button {
+//     color: blue;
+//     background-color: pink;
+// }
+
+// a {
+//     text-decoration: none;
+//     color: red;
+// }
