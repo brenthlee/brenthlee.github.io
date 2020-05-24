@@ -11,9 +11,10 @@ header {
 
 .column {
     flex: 50%;
-    #rHeader {
-        text-align: right;;
-    }
+}
+
+rHeader {
+    text-align: right;
 }
 
 button {
