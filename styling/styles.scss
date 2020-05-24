@@ -4,14 +4,18 @@
 
 .header {
     display: block;
-    background-color: white;
+    background-color: #00B29D;
     width: 100%;
-    height: 20px;
+    height: 35px;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .inner {
     display: flex;
-    background-color: 00B29D;
+    background-color: #00B29D;
     color: white;
     width: 90%;
     height: 100%;
