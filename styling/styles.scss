@@ -27,12 +27,11 @@ section {
 }
 
 .experience {
-    font-size: 17;
+    font-size: calc(12px + (19-12) * ((100vw - 300px) / (1600-300)));
     text-align: justify;
 }
 
 .text {
-    // font-size: 25;
     font-size: calc(14px + (26-14) * ((100vw - 300px) / (1600-300)));
     text-align: justify;
 }
