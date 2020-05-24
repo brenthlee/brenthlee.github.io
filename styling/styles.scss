@@ -79,7 +79,13 @@ a {
 
 #rHeader {
     text-align: right;
-    // padding-right: 20px;
+}
+
+.exHeader {
+    font-size: calc(12px + (20-12) * ((100vw - 300px) / (1600-300)));
+    display: block;
+    text-align: center;
+    width: 100%;
 }
 
 .logo {
@@ -89,20 +95,3 @@ a {
 .content {
     width: 80%;
 }
-
-// p {
-//     color: green;
-//     border: 2px solid green;
-//     font-size: 24px;
-//     text-align: center;
-// }
-
-// button {
-//     color: blue;
-//     background-color: pink;
-// }
-
-// a {
-//     text-decoration: none;
-//     color: red;
-// }
