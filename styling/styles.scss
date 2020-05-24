@@ -58,12 +58,17 @@ section {
 
 a {
     text-decoration: none;
-    .nav {
-        margin-left: 10px;
-    }
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
 }
 a:hover {
     color: gray;
+}
+.nav {
+    margin-left: 10px;
 }
 
 .column {
