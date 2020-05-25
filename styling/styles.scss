@@ -135,6 +135,7 @@ a {
 }
 
 .footer {
+  font-size: calc(5px + (9-5) * ((100vw - 300px) / (1600-300)));
   display: block;
   background-color: #00b29d;
   height: 45px;
