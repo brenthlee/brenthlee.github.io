@@ -104,7 +104,8 @@ a {
 .logo {
   width: 20%;
   margin: auto;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   // float: left;
 }
 
