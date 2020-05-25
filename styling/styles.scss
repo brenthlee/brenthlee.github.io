@@ -147,3 +147,12 @@ h1 {
 #brent {
   width: calc(2 / 3 * (100%));
 }
+
+.leftcontact {
+  display: flex;
+  width: 50%;
+}
+
+.rightcontact {
+  flex: 1;
+}
