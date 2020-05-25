@@ -150,11 +150,13 @@ h1 {
 
 .contactcontainer {
   width: 80%;
+  margin: 0 auto;
 }
 
 .leftcontact {
   display: flex;
   width: 50%;
+  justify-content: center;
 }
 
 .rightcontact {
