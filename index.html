@@ -129,7 +129,20 @@
     <div class="footer">
       <div class="inner">
         <div class="column" id="lFooter">
-          <p>&copy; by Brent Lee, Computer Science</p>
+          <p>
+            &copy;
+            <span id="copyright">
+              <script>
+                document
+                  .getElementById("copyright")
+                  .appendChild(
+                    document.createTextNode(new Date().getFullYear())
+                  );
+              </script>
+            </span>
+            by Brent Lee, Computer Science
+          </p>
+          <!-- <p>&copy; by Brent Lee, Computer Science</p> -->
         </div>
         <div class="column" id="rFooter"></div>
       </div>
