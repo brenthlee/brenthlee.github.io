@@ -29,8 +29,7 @@ section {
 .experience {
   font-size: calc(10px + (16-12) * ((100vw - 300px) / (1600-300)));
   text-align: justify;
-  display: inline-block;
-  //   position: relative;
+  display: block;
 }
 
 .text {
@@ -110,6 +109,7 @@ a {
   font-size: calc(10px + (16-10) * ((100vw - 300px) / (1600-300)));
   text-align: justify;
   padding-left: 30px;
+  word-break: break-all;
 }
 
 .ctitle {
