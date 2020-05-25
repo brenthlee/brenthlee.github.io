@@ -141,8 +141,8 @@ a {
 }
 
 .head1 {
+  font-size: calc(20px + (40-20) * ((100vw - 300px) / (1600-300)));
   text-align: center;
-  font-size: calc(30px + (40-30) * ((100vw-300px) / (1600-300)));
 }
 
 #brent {
