@@ -103,6 +103,10 @@ a {
   // float: left;
 }
 
+#tview {
+  font-size: calc(5px + (10-5) * ((100vw - 300px) / (1600-300)));
+}
+
 .content {
   //   display: block;
   flex: 1;
