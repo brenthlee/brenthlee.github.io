@@ -111,13 +111,10 @@ a {
 
 #tview {
   width: calc(2 / 3 * (100%));
-  //   font-size: calc(5px + (10-5) * ((100vw - 300px) / (1600-300)));
 }
 
 .content {
-  //   display: block;
   flex: 1;
-  //   width: 80%;
   font-size: calc(10px + (16-10) * ((100vw - 300px) / (1600-300)));
   text-align: justify;
   padding-left: 30px;
@@ -145,4 +142,8 @@ a {
 
 h1 {
   text-align: center;
+}
+
+#brent {
+  width: calc(2 / 3 * (100%));
 }
