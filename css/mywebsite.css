@@ -1,0 +1,337 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.card {
+  -webkit-transition:  box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+}
+.card:hover {
+  box-shadow:  0 0 1rem #007bff !important; 
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+}
+
+.custom-border {
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.navbar-brand-inactive {
+  color: rgba(255,255,255,.5) !important;
+}
+
+.navbar-brand-inactive:hover {
+  color: rgba(255,255,255,.75) !important;
+}
+
+.nav-link {
+  margin-left: 8px;
+}
+
+.text-shadow {
+  text-shadow: 0 .5rem 1rem rgba(0,0,0,.3)
+}
+
+video {
+	width: 100%;
+	height: auto;    
+  border-radius: .25rem;
+}
+
+.video-container {
+	border-width: 0;
+	border-radius: .25rem; 
+	overflow: hidden;
+}
+.card-body ul {
+	padding-inline-start: inherit;
+}
+
+.card-body .btn {
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.pdf-iframe,
+.web-iframe {
+  width: 100%;
+  height: 540px; 
+}
+
+.video-iframe {
+  width: 100%; 
+}
+
+iframe {
+  border-radius: .25rem;
+  border-width: 0;
+}
+
+.youtube-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; over
+}
+
+.youtube-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  overflow:hidden;
+}
+
+.index-jumbotron {
+  background-image: url(../img/checkout.jpg); 
+  background-size: contain; 
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #FFF;
+}
+
+.carousel-indicators li {
+  width: 60px;
+  height: 6px;
+  margin-left: 6px;
+  margin-right: 6px;
+  background-color: #BBB;
+}
+
+.carousel-indicators .active {
+  background-color: #EEE;
+}
+
+.carousel-control-next-icon {
+  background-image: url(../img/next_normal.png);
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../img/prev_normal.png);
+}
+
+.carousel-control-next:hover .carousel-control-next-icon {
+  background-image: url(../img/next_hover.png);
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon {
+  background-image: url(../img/prev_hover.png);
+}
+
+.carousel-control-next-icon, 
+.carousel-control-prev-icon { 
+  width: 60px;
+  height: 60px;
+}
+
+.carousel-control-next:hover, 
+.carousel-control-prev:hover {
+  opacity: 0.3;
+}
+.carousel-control-next:focus, 
+.carousel-control-prev:focus, 
+.carousel-control-next, 
+.carousel-control-prev { 
+  opacity: 0.5;
+}
+
+.carousel {
+  height: 300px;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-caption h3 {
+  color: white;
+  text-shadow: 0 0 1.5rem black, 0 0 0.8rem black, 0 0 0.8rem black;
+}
+.carousel-caption p {
+  text-shadow: 0 0 1rem black, 0 0 1rem black, 0 0 1rem black, 0 0 0.3rem black, 0 0 0.3rem black;
+}
+.carousel-caption span {
+  box-shadow: 0 0 1.5rem black;
+}
+
+.carousel-caption:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.carousel-item .clickable-img {
+  position: relative;
+  overflow: hidden;
+}
+.caro-img {
+  height: 100%;
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+
+}
+
+.background-black {
+  background-color: #000;
+}
+
+.center-parent.active,
+.center-parent.carousel-item-left,
+.center-parent.carousel-item-right,
+.center-parent.carousel-item-prev,
+.center-parent.carousel-item-next,
+.flip-card .center-parent {
+  display: table;
+}
+.center-child {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.card, 
+.container > h1, 
+.container > .list-group,
+.flip-card {
+  opacity: 0;
+  transform: translate(0, 20px); 
+  transition: all 1s;
+}
+
+.container .visible {
+  opacity: 1;
+  transform: translate(0, 0); 
+}
+
+.container .invisible-above {
+  transform: translate(0, -20px) !important; 
+}
+
+.flip-card {
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: transparent;
+  width: 100%;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card:hover {
+  //box-shadow: none !important;
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: .25rem;
+  overflow: hidden;
+  text-align: center;
+  padding: 15px;
+}
+
+.flip-card .center-child {
+  border-radius: .25rem;
+}
+
+/* Style the front/back side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  
+  color: white;
+  text-shadow: 0 0 0.8rem black, 0 0 0.8rem black;
+
+}
+
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-front h4 {
+}
+
+.responsive-col {
+/*
+  float: left;
+  width: 50%;
+
+  box-sizing: border-box;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  padding-bottom: 15px;*/
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 15px;
+  padding-bottom: 15px;
+}
+
+.responsive-row {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+  flex-wrap: wrap;
+  //padding: 0 4px;
+}
+
+.responsive-row:after {
+  content: "";
+  //display: table;
+  clear: both;
+}
+
+.white-shadow {
+  text-shadow: 0 0 0.7rem white, 0 0 0.3rem white;
+}
+
+.transparent {
+  opacity: 0.7;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand-inactive {
+    margin-left: 16px;
+  }
+  .index-jumbotron {
+    background-image: url(../img/glasses.jpg);
+    background-size: contain;
+    background-position: center;
+  }
+  .carousel {
+    height: 480px;
+  }
+}
+@media (min-width: 992px) {
+  .responsive-col {
+    //width: 33%;
+    flex: 33%;
+    max-width: 33%;
+  }
+}

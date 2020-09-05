@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  color: white;
+  width: 100%;
+}
+
+.main {
+  // height: 2000px;
+  width: 100%;
+  background-color: #101010;
+  display: block;
+  padding: 20 0;
+}
+
+section {
+  display: flex;
+  margin: 20 auto 0;
+  width: 80%;
+}
+
+// .summary {
+//     margin-top: 0;
+// }
+
+#first {
+  margin-top: 0;
+}
+
+.experience {
+  font-size: calc(10px + (16-12) * ((100vw - 300px) / (1600-300)));
+  text-align: justify;
+  display: block;
+}
+
+.text {
+  font-size: calc(14px + (23-14) * ((100vw - 300px) / (1600-300)));
+  text-align: justify;
+}
+
+.header {
+  display: block;
+  background-color: #00b29d;
+  height: 35px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.inner {
+  display: flex;
+  background-color: #00b29d;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  margin-left: 10px;
+  -webkit-transition: color 0.6s;
+  -moz-transition: color 0.6s;
+  -ms-transition: color 0.6s;
+  -o-transition: color 0.6s;
+  transition: color 0.6s;
+}
+
+.currentnav {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+.nav:hover {
+  color: gray;
+}
+
+.column {
+  flex: 50%;
+  align-items: center;
+}
+
+#rHeader {
+  text-align: right;
+}
+
+.exHeader {
+  font-size: calc(12px + (20-12) * ((100vw - 300px) / (1600-300)));
+  display: block;
+  text-align: center;
+  margin-top: 30;
+  width: 100%;
+  font-weight: bold;
+  color: #00b29d;
+}
+
+.flexible {
+  display: flex;
+  margin-top: 25px;
+}
+
+.logo {
+  width: 20%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  // float: left;
+}
+
+#tview {
+  width: calc(2 / 3 * (100%));
+}
+
+.content {
+  flex: 1;
+  font-size: calc(10px + (16-10) * ((100vw - 300px) / (1600-300)));
+  text-align: justify;
+  padding-left: 30px;
+}
+
+.ctitle {
+  font-size: calc(11px+ (17-11) * ((100vw - 300px) / (1600-300)));
+  font-weight: bold;
+}
+.year {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.details {
+  display: flex;
+}
+
+.footer {
+  font-size: calc(7px + (10-7) * ((100vw - 300px) / (1600-300)));
+  display: block;
+  background-color: #00b29d;
+  height: 40px;
+}
+
+.head1 {
+  font-size: calc(20px + (40-20) * ((100vw - 300px) / (1600-300)));
+  text-align: center;
+}
+
+#brent {
+  width: calc(7 / 8 * (100%));
+}
+
+.contactcontainer {
+  width: 80%;
+  margin: 20 auto;
+  display: flex;
+}
+
+.leftcontact {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+.rightcontact {
+  flex: 1;
+}
