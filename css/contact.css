@@ -3,6 +3,7 @@ body {
 }
 
 .trying {
+    background-color: pink;
     height: 300px;
     width: 100%;
 }
