@@ -1,5 +1,5 @@
 const headerTemplate = document.createElement("template");
-headerTemplate.innertHTML = `
+headerTemplate.innerHTML = `
 <style>
     nav {
         height: 40px;
