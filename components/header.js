@@ -3,6 +3,9 @@ headerTemplate.innerHTML = `
 <style>
     header {
         position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
     }
     nav {
         height: 50px;
