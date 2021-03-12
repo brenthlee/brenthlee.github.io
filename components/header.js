@@ -1,6 +1,9 @@
 const headerTemplate = document.createElement("template");
 headerTemplate.innerHTML = `
 <style>
+    header {
+        position: fixed;
+    }
     nav {
         height: 50px;
         display: flex;
