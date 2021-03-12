@@ -1,5 +1,5 @@
-const headerTemplate = document.createElement("template");
-headerTemplate.innerHTML = `
+const footerTemplate = document.createElement("template");
+footerTemplate.innerHTML = `
 <style>
     nav {
         height: 50px;
@@ -26,7 +26,7 @@ headerTemplate.innerHTML = `
         box-shadow: inset 0 -2px 0 0 #fff;
     }
 </style>
-<header>
+<footer>
     <nav>
         <ul>
             <li><a href="about.html">About</a></li>
@@ -34,18 +34,18 @@ headerTemplate.innerHTML = `
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-</header>
+</footer>
 `;
 
-class Header extends HTMLElement {
+class Footer extends HTMLElement {
   constructor() {
     super();
   }
 
   connectedCallback() {
     const shadowRoot = this.attachShadow({ mode: "closed" });
-    shadowRoot.appendChild(headerTemplate.content);
+    shadowRoot.appendChild(footerTemplate.content);
   }
 }
 
-customElements.define("header-component", Header);
+customElements.define("footer-component", Footer);
