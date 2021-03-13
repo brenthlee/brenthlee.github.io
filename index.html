@@ -4,8 +4,8 @@
     <title>Brent's Website</title>
     <meta charset="UTF-8" />
     <script src="https://code.jquery.com/jquery.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/homepage.css" />
-    <script src="components/header.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="css/homepage.css" /> -->
+    <!-- <script src="components/header.js"></script> -->
     <script src="components/footer.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
@@ -14,61 +14,87 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <header-component></header-component>
-    <main>
-      <div class="helloworld">
-        trying
-      </div>
-      <div class="hero-body">
+    <!-- <header-component></header-component> -->
+    <!-- <main> -->
+      <div id="backToTopArrow" class="icon"><a><i class="fas fa-arrow-alt-circle-up fa-2x"></i></a></div>
+<div class="hero is-fullheight">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+        <header class="navbar has-shadow is-spaced">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="/">
+                        <img src="/assets/images/logo.png">
+                    </a>
+                </div>
+                <div class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="/assets/cv" target="_blank">
+                            <div class="icon"><i class="far fa-copy" style="color: #35375a;"></i></div>
+                            <strong>CV</strong>
+                        </a>
+                        <a class="navbar-item" href="https://github.com/erichanliu" target="_blank">
+                            <div class="icon"><i class="fab fa-github" style="color: #35375a;"></i></div>
+                            <strong>GitHub</strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="hero-body">
         <div class="container">
-          <div class="columns is-vcentered">
-            <div class="column is-6 is-offset-1">
-              <div class="columns is-vcentered">
-                <div class="column is-6">
-                  <div class="has-text-centered">
-                    <img
-                      src="/assets/profilepic.gif"
-                      alt="Profile"
-                      id="profileImage"
-                      data-aos="zoom-in"
-                      data-aos-delay="500"
-                      data-aos-duration="800"
-                    />
-                  </div>
+            <div class="columns is-vcentered">
+                <div class="column is-6 is-offset-1">
+                    <div class="columns is-vcentered">
+                        <div class="column is-6">
+                            <div class="has-text-centered">
+                                <img src="/assets/images/eric_profile.jpg" alt="Profile" id="profileImage"
+                                     data-aos="zoom-in" data-aos-delay="500" data-aos-duration="800">
+                            </div>
+                        </div>
+                        <div class="column is-6">
+                            <div id="profileText" class="has-text-centered-mobile">
+                                <h1 class="title is-3" data-aos="fade-right" data-aos-delay="500"
+                                    data-aos-duration="800">
+                                    Hi, I'm Eric.
+                                </h1>
+                                <h2 class="subtitle is-5" data-aos="fade-right" data-aos-duration="1000"
+                                    data-aos-delay="500">
+                                    I'm a software engineer currently based in California.
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="column is-6">
-                  <div id="profileText" class="has-text-centered-mobile">
-                    <h1
-                      class="title is-3"
-                      data-aos="fade-right"
-                      data-aos-delay="500"
-                      data-aos-duration="800"
-                    >
-                      Hi, I'm Eric.
-                    </h1>
-                    <h2
-                      class="subtitle is-5"
-                      data-aos="fade-right"
-                      data-aos-duration="1000"
-                      data-aos-delay="500"
-                    >
-                      I'm a software engineer currently based in California.
-                    </h2>
-                  </div>
+                <div class="column is-hidden-mobile is-4" data-aos="fade-left" data-aos-delay="500">
+                    <img src="/assets/images/code.svg">
                 </div>
-              </div>
             </div>
-            <div
-              class="column is-hidden-mobile is-4"
-              data-aos="fade-left"
-              data-aos-delay="500"
-            >
-              <img src="/assets/code.svg" />
-            </div>
-          </div>
         </div>
-      </div>
-    </main>
-    <footer-component></footer-component>
+    </div>
+    <div class="hero-foot is-hidden-mobile">
+        <nav class="tabs is-centered">
+            <div class="container">
+                <ul>
+                    <li class="tab"><a href="#aboutMe">
+                        <div class="icon is-small"><i class="fas fa-info-circle" style="color: #35375a;"></i></div>
+                        <strong>About Me</strong>
+                    </a></li>
+                    <li class="tab"><a href="#projects">
+                        <div class="icon is-small"><i class="fas fa-layer-group" style="color: #35375a;"></i></div>
+                        <strong>Projects</strong>
+                    </a></li>
+                    <li class="tab"><a href="#performances">
+                        <div class="icon is-small"><i class="fas fa-guitar" style="color: #35375a;"></i></div>
+                        <strong>Performances</strong>
+                    </a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+    <!-- </main> -->
+    <!-- <footer-component></footer-component> -->
   </body>
 </html>
