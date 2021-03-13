@@ -7,6 +7,7 @@ headerTemplate.innerHTML = `
         left: 0;
         top: 0;
     }
+
     nav {
         height: 50px;
         display: flex;
@@ -31,6 +32,11 @@ headerTemplate.innerHTML = `
         padding-bottom: 5px;
         box-shadow: inset 0 -2px 0 0 #fff;
     }
+
+    #pfp {
+        width: 36px;
+        border-radius: 50%;
+    }
 </style>
 <header>
     <nav>
@@ -41,6 +47,7 @@ headerTemplate.innerHTML = `
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+    <img src="../assets/profilepic.gif" id="pfp" />
 </header>
 `;
 
