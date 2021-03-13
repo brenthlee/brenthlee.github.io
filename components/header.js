@@ -4,9 +4,8 @@ headerTemplate.innerHTML = `
     header {
         display: flex;
         position: fixed;
-        right: 0;
-        left: 0;
-        top: 0;
+        width: 100%;
+        background-color: #0a0a23;
     }
 
     nav {
@@ -14,7 +13,7 @@ headerTemplate.innerHTML = `
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #0a0a23;
+        // background-color: #0a0a23;
     }
 
     ul li {
@@ -35,8 +34,8 @@ headerTemplate.innerHTML = `
     }
 
     #pfp {
-        width: 36px;
-        height: 36px;
+        width: 40px;
+        height: 40px;
         object-fit: cover;
         border-radius: 50%;
     }
