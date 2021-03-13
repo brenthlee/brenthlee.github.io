@@ -7,11 +7,60 @@
     <link rel="stylesheet" type="text/css" href="css/homepage.css" />
     <script src="components/header.js"></script>
     <script src="components/footer.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <header-component></header-component>
     <main>
-      <div class="trying"></div>
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-vcentered">
+            <div class="column is-6 is-offset-1">
+              <div class="columns is-vcentered">
+                <div class="column is-6">
+                  <div class="has-text-centered">
+                    <img
+                      src="/assets/profilepic.gif"
+                      alt="Profile"
+                      id="profileImage"
+                      data-aos="zoom-in"
+                      data-aos-delay="500"
+                      data-aos-duration="800"
+                    />
+                  </div>
+                </div>
+                <div class="column is-6">
+                  <div id="profileText" class="has-text-centered-mobile">
+                    <h1
+                      class="title is-3"
+                      data-aos="fade-right"
+                      data-aos-delay="500"
+                      data-aos-duration="800"
+                    >
+                      Hi, I'm Eric.
+                    </h1>
+                    <h2
+                      class="subtitle is-5"
+                      data-aos="fade-right"
+                      data-aos-duration="1000"
+                      data-aos-delay="500"
+                    >
+                      I'm a software engineer currently based in California.
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="column is-hidden-mobile is-4"
+              data-aos="fade-left"
+              data-aos-delay="500"
+            >
+              <img src="/assets/code.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer-component></footer-component>
   </body>
