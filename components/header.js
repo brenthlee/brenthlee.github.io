@@ -7,15 +7,16 @@ headerTemplate.innerHTML = `
         position: fixed;
         width: 100%;
         background-color: #0a0a23;
+        height: 50px;
     }
 
-    nav {
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        // background-color: #0a0a23;
-    }
+    // nav {
+    //     height: 50px;
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    //     // background-color: #0a0a23;
+    // }
 
     ul li {
         list-style: none;
@@ -33,24 +34,16 @@ headerTemplate.innerHTML = `
         padding-bottom: 5px;
         box-shadow: inset 0 -2px 0 0 #fff;
     }
-
-    #pfp {
-        width: 40px;
-        height: 40px;
-        object-fit: cover;
-        border-radius: 50%;
-    }
 </style>
 <header>
-    <nav>
+    // <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="work.html">Work</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-    </nav>
-    <img src="../assets/profilepic.gif" id="pfp" />
+    // </nav>
 </header>
 `;
 
