@@ -2,6 +2,7 @@ const headerTemplate = document.createElement("template");
 headerTemplate.innerHTML = `
 <style>
     header {
+        display: flex;
         position: fixed;
         right: 0;
         left: 0;
@@ -36,6 +37,7 @@ headerTemplate.innerHTML = `
     #pfp {
         width: 36px;
         height: 36px;
+        object-fit: cover;
         border-radius: 50%;
     }
 </style>
