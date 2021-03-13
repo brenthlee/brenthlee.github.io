@@ -2,21 +2,17 @@ const headerTemplate = document.createElement("template");
 headerTemplate.innerHTML = `
 <style>
     header {
-        align-items: center;
-        display: flex;
         position: fixed;
         width: 100%;
-        background-color: #0a0a23;
-        height: 50px;
     }
 
-    // nav {
-    //     height: 50px;
-    //     display: flex;
-    //     align-items: center;
-    //     justify-content: center;
-    //     // background-color: #0a0a23;
-    // }
+    nav {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0a0a23;
+    }
 
     ul li {
         list-style: none;
@@ -36,14 +32,14 @@ headerTemplate.innerHTML = `
     }
 </style>
 <header>
-    // <nav>
+    <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="work.html">Work</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-    // </nav>
+    </nav>
 </header>
 `;
 
