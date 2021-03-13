@@ -2,6 +2,7 @@ const headerTemplate = document.createElement("template");
 headerTemplate.innerHTML = `
 <style>
     header {
+        align-items: center;
         display: flex;
         position: fixed;
         width: 100%;
