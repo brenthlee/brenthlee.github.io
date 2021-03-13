@@ -3,32 +3,33 @@ headerTemplate.innerHTML = `
 <style>
     header {
         position: fixed;
+        top: 0;
         width: 100%;
     }
 
     nav {
-        height: 50px;
-        display: flex;
         align-items: center;
-        justify-content: center;
         background-color: #0a0a23;
+        display: flex;
+        height: 50px;
+        justify-content: center;
     }
 
     ul li {
-        list-style: none;
         display: inline;
+        list-style: none;
     }
 
     a {
+        color: #fff;
         font-weight: 700;
         margin: 0 25px;
-        color: #fff;
         text-decoration: none;
     }
 
     a:hover {
-        padding-bottom: 5px;
         box-shadow: inset 0 -2px 0 0 #fff;
+        padding-bottom: 5px;
     }
 </style>
 <header>
