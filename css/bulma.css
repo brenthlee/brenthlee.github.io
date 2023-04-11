@@ -275,9 +275,9 @@
     font-weight: normal;
   }
   
-  ul {
+  /* ul {
     list-style: none;
-  }
+  } */
   
   button,
   input,
@@ -10604,5 +10604,5 @@
   }
 
   .position {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
