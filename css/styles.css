@@ -17,6 +17,10 @@ body {
     transition: 0.3s;
 }
 
+#titletext {
+    font-size: 2em;
+}
+
 #profileImage {
     border-radius: 100%;
     border: 1px solid black;
