@@ -22,6 +22,10 @@ body {
     font-size: 1.5em;
 }
 
+.position {
+    font-size: 1.3em;
+}
+
 #profileImage {
     border-radius: 100%;
     border: 1px solid black;
