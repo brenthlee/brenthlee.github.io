@@ -87,3 +87,8 @@ a:hover {
 .bullet {
     margin-left: 1em;
 }
+
+.clickable {
+    color: blue;
+    text-decoration: underline;
+}
