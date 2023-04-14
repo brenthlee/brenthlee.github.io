@@ -96,3 +96,11 @@ a:hover {
     color: blue;
     text-decoration: underline;
 }
+
+.underline {
+    text-decoration: underline;
+}
+
+.italics {
+    font-style: italic;
+}
