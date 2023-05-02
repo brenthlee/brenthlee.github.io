@@ -39,6 +39,7 @@ body {
 
 #aboutMe {
     box-shadow: 0 1px 10px 5px rgb(250, 200, 200);
+    padding-bottom: 9rem;
 }
 
 .title.is-5 {
